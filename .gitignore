@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+
+outputs/
+*.log
+
+.DS_Store
+
+# Avoid accidentally committing downloaded model weights or checkpoints.
+models/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
