@@ -934,7 +934,7 @@ def main():
     args = parser.parse_args()
 
     if not args.api_key:
-        raise SystemExit("Missing API key. Set --api_key or DEEPSEEK_API_KEY.")
+        raise SystemExit("Missing API key. Set --api_key, OPENAI_API_KEY, or OPENROUTER_API_KEY.")
 
     score_scales = normalize_score_scales(args.score_scales)
 

@@ -1,6 +1,8 @@
 # PRISM
 
-This repository contains the data and evaluation scripts for the paper **"Do LLMs Understand Personality? Rethinking Persona Fidelity Evaluation through Structured Behavioral Inference"**.
+Code and data for **"Do LLMs Understand Personality? Rethinking Persona Fidelity Evaluation through Structured Behavioral Inference"**, accepted to **EMNLP 2026 Main Conference**.
+
+**Authors:** Mengfan Li, Zesheng Wei, Xuanhua Shi, Yang Deng
 
 PRISM is a persona-fidelity evaluation method for persona-grounded dialogue responses.
 
@@ -30,7 +32,7 @@ PRISM/
       pandalm_pairwise.py
     direct_LLM_as_a_judge.py
   requirements.txt
-  readme.md
+  README.md
 ```
 
 ## Datasets
@@ -213,9 +215,11 @@ python scripts/direct_LLM_as_a_judge.py \
 
 - The scripts support `--start` and `--end` for running subsets by grouped case index.
 - Output filenames include dataset/model/range/timestamp information.
-- For reproducible paper experiments, report the model name, dtype, dataset file, case range, and generated `*_analysis.json` file.
-- Keep API keys and private model paths outside the repository.
 
 ## Citation
 
-If you use this repository, please cite:
+BibTeX will be added once the official proceedings version is available.
+
+If you use this repository before then, please cite the EMNLP 2026 paper:
+
+**Do LLMs Understand Personality? Rethinking Persona Fidelity Evaluation through Structured Behavioral Inference.**
